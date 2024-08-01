@@ -1,14 +1,64 @@
-#heading{
-color: red;
+#heading {
+    color: red;
 }
 
-span{
-    color:green
-}
-#first{
-    color :blueviolet
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
 }
 
-div> h1{
-    color:red
+.logo-container img {
+   margin-top: 2px;
+    width: 100px;
+    margin-left: 2px;
+
+}
+
+
+.nav-item{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item>ul {
+    display: flex;
+    padding: 0px 20px;
+   
+   
+
+}
+
+
+li {
+    list-style-type: none;
+    margin-left: 12px;
+    margin-right: 16px;
+    font-size: large;
+
+}
+
+.search{
+    padding :10px
+}
+.res-card{
+    width: 200px;
+    height: 300px;
+   
+    padding: 5px;
+    background-color:rgb(137, 131, 131) ;
+}
+.res-card:hover{
+    border: 1px solid black;
+}
+.img-container{
+    overflow: hidden;
+}
+.res-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+
 }
